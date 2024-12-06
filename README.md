@@ -74,7 +74,7 @@ The project is modular and extensible, making it a great starting point for buil
 
 3. **Download the Dataset**
    - Obtain the dataset required for the project:
-     - Download from the links contained in 
+     - Download from the links contained in "DataA1121.md"
    - Save the dataset in the `data/` directory:
      ```bash
      mkdir -p data
@@ -89,12 +89,12 @@ The project is modular and extensible, making it a great starting point for buil
 
 5. **Run the Notebooks**
    - Execute the notebooks in the following order:
-     1. `1_data_preparation.ipynb`:
+     1. `Baseline.ipynb`:
         - Prepares the dataset by:
           - Generating user interaction histories.
           - Performing negative sampling.
           - Handling cold-start scenarios.
-     2. `2_feature_engineering.ipynb`:
+     2. `Feature_engineering.ipynb`:
         - Extracts user and article features using:
           - User's last click and historical behavior.
           - Recall list and article metadata.
@@ -111,19 +111,11 @@ The project is modular and extensible, making it a great starting point for buil
           - Temporal weights.
           - Positional weights.
           - Content-based similarity.
-     5. `5_evaluation.ipynb`:
-        - Evaluates the recommendation system using metrics such as:
-          - Normalized Discounted Cumulative Gain (NDCG).
-          - Mean Average Precision (MAP).
+        - Trains LightGBM-based ranking models for personalized recommendations.
 
-6. **Run the End-to-End Pipeline**
-   - Alternatively, run the entire system in one go:
-     ```bash
-     python recommend.py
      ```
 
 7. **Inspect Results**
    - Analyze results and visualizations in the notebooks:
      - Candidate articles generated in the recall stage.
      - Ranked lists of articles for each user.
-     - Evaluation metrics (e.g., NDCG and MAP) visualized with graphs.
