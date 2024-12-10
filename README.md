@@ -90,10 +90,11 @@ The project is modular and extensible, making it a great starting point for buil
           - Positional weights.
           - Content-based similarity.
         - Trains LightGBM-based ranking models for personalized recommendations.
-
      ```
 7. **Inspect Results**
    - Analyze results and visualizations in the notebooks:
      - Candidate articles generated in the recall stage.
      - Ranked lists of articles for each user.
 
+### Acknowledgement
+   This project is inspired by [fun_rec](https://github.com/datawhalechina/fun-rec).
