@@ -1,6 +1,6 @@
 ## **Overview**
 
-This project presents a sophisticated **two-stage news recommendation system** designed to provide personalized, relevant, and engaging news article recommendations to users. The system is implemented entirely in Jupyter notebooks for clarity and ease of exploration.
+This project presents a hybrid **two-stage news recommendation system** designed to provide personalized, relevant, and engaging news article recommendations to users. The system is implemented entirely in Jupyter notebooks for clarity and ease of exploration.
 
 The **two-stage architecture** is structured as follows:
 
